@@ -1,16 +1,16 @@
 // @import "bootstrap/scss/functions"; <= initial structure of all @imports
-@import "./bootstrap-5.3.3/scss/functions";
-@import "./bootstrap-5.3.3/scss/variables";
-@import "./bootstrap-5.3.3/scss/variables-dark";
-@import "./bootstrap-5.3.3/scss/maps";
-@import "./bootstrap-5.3.3/scss/mixins";
-@import "./bootstrap-5.3.3/scss/utilities";
-// @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/functions");
-// @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/variables");
-// @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/variables-dark");
-// @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/maps");
-// @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/mixins");
-// @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/utilities");
+// @import "./bootstrap-5.3.3/scss/functions";
+// @import "./bootstrap-5.3.3/scss/variables";
+// @import "./bootstrap-5.3.3/scss/variables-dark";
+// @import "./bootstrap-5.3.3/scss/maps";
+// @import "./bootstrap-5.3.3/scss/mixins";
+// @import "./bootstrap-5.3.3/scss/utilities";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/functions");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/variables");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/variables-dark");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/maps");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/mixins");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/utilities");
 
 $all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans);
 
@@ -31,9 +31,9 @@ $utilities: map-merge(
   )
 );
 
-// @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/utilities/api");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap/scss/utilities/api");
 // @import "bootstrap/scss/utilities/api";
-@import "./bootstrap-5.3.3/scss/utilities/api";
+// @import "./bootstrap-5.3.3/scss/utilities/api";
 
 body {
     background: $yellow;
