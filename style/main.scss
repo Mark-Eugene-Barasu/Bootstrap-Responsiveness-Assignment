@@ -35,12 +35,10 @@ $utilities: map-merge(
 // @import "bootstrap/scss/utilities/api";
 // @import "./bootstrap-5.3.3/scss/utilities/api";
 
-body {
-    background: $yellow;
-}
-
-div.row > div.col {
-    div:first-child {
-        background-color: $red-100;
+.row  { 
+    .col  {
+        &:first-child {
+            background-color: red;
+        }
     }
 }
